@@ -1,0 +1,55 @@
+{% extends 'base.html' %}
+
+{% block title %} {% endblock %}
+
+{% block content %}
+
+<form action="/practice/student/data/add/" method="get">
+
+    <label for="id_student_Specialty">Спеціальність:</label>
+
+    <input type="text" name="student_Specialty" class="vTextField" maxlength="50" id="id_student_Specialty">
+
+    <label for="id_student_Group">Група:</label>
+
+    <input type="text" name="student_Group" class="vTextField" maxlength="50" id="id_student_Group">
+
+    <label for="id_student_Number">Номер:</label>
+
+    <input type="number" name="student_Number" class="vIntegerField" min="0" id="id_student_Number">
+
+    <label for="id_student_Name">ПІБ: </label>
+
+    <input type="text" name="student_Name" class="vTextField" maxlength="100" id="id_student_Name" value="{{ request.user.first_name }}">
+
+    <label for="id_student_Enterprise">Підприємство (&lt;назва українською&gt;, м. &lt;місто&gt;):</label>
+
+    <input type="text" name="student_Enterprise" class="vTextField" maxlength="80" id="id_student_Enterprise">   
+
+    <label for="id_student_The_theme_of_work">Тема роботи:</label>
+
+    <textarea name="student_The_theme_of_work" cols="40" rows="10" class="vLargeTextField" maxlength="250" id="id_student_The_theme_of_work"></textarea>
+
+    <label for="id_student_The_topic_of_work_in_English">Тема роботи англійською мовою:</label>
+
+    <textarea name="student_The_topic_of_work_in_English" cols="40" rows="10" class="vLargeTextField" maxlength="250" id="id_student_The_topic_of_work_in_English"></textarea>
+
+    <label for="id_student_Last_name_First_name_in_English">Прізвище Ім'я англійською:</label>
+
+    <input type="text" name="student_Last_name_First_name_in_English" class="vTextField" maxlength="100" id="id_student_Last_name_First_name_in_English">
+
+    <label for="id_student_Manager">Керівник:</label>
+
+    <input type="text" name="student_Manager" class="vTextField" maxlength="50" id="id_student_Manager">
+
+    <label for="id_student_Email">E-mail:</label>
+
+    <input type="text" name="student_Email" class="vTextField" maxlength="80" id="id_student_Email">
+
+    <input type="submit" value="Зберегти">
+
+</form>
+
+
+
+{% endblock %}

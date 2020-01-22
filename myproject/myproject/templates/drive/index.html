@@ -1,0 +1,21 @@
+{% extends 'base.html' %}
+
+{% block title %} {% endblock %}
+
+{% block table %}
+
+    <table class="table-responsive table-sm table-striped">
+        <tr>
+            {% for row in excel_data %}
+
+            {% for cell in row %}
+            <td> {{ cell }}&nbsp;&nbsp;</td>
+
+            {% endfor %}
+        </tr>
+
+        {% endfor %}
+    </table>
+
+{% endblock %}
+

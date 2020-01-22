@@ -1,0 +1,25 @@
+{% extends 'base.html' %}
+
+{% block title %} {% endblock %}
+
+{% block content %}
+
+<table class="table-responsive table-sm table-striped">
+    {% for i in students %}
+    <tr>
+        {% for j in i %}
+        <td>
+            {% if j == None %}
+
+            {% else %}
+                {{ j }}
+            {% endif %}
+        </td>
+         {% endfor %}
+    </tr>
+    {% endfor %}
+</table>
+
+
+
+{% endblock %}

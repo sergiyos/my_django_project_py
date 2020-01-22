@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html>
+ <head>
+ <title>{% block title %}{% endblock %}</title>
+   {% load staticfiles %}
+  <link rel="stylesheet" href="{% static '/css/bootstrap.min.css' %}" >
+  <link href="{% static 'css/main_style.css' %}" rel="stylesheet">
+
+ </head>
+ <body>
+
+<div id="header">
+ <span class="logo">Практика</span>
+ {% if request.user.is_authenticated %}
+ <ul class="menu">
+ <li {% if section == "dashboard" %} class="selected"{% endif %}>
+ <a href="{% url 'dashboard' %}">Мій кабінет</a>
+ </li>
+ <li {% if section == "drive" %}class="selected"{% endif %}>
+ <a href="/drive">Таблиця</a>
+ </li>
+ <li {% if section == "driveshow" %}class="selected"{% endif %}>
+ <a href="/drive/show">Файли</a>
+ </li>
+  <li {% if section == "students" %}class="selected"{% endif %}>
+ <a href="/practice">Студенти</a>
+ </li>
+   <li {% if section == "change" %}class="selected"{% endif %}>
+ <a href="/practice/student/data">Змінити дані</a>
+ </li>
+  <li {% if section == "change" %}class="selected"{% endif %}>
+ <a href="/practice">Сформувати документи</a>
+ </li>
+ </ul>
+ {% endif %}
+ <span class="user">
+   {% if request.user.is_authenticated %}
+ Привіт {{ request.user.first_name }},
+ <a href="{% url 'logout' %}">Вихід</a>
+ {% else %}
+ <a href="{% url 'login' %}">Вхід</a>
+ {% endif %}
+ </span>
+</div>
+
+ <div>
+ {% block table %}{% endblock %}
+ </div>
+
+ <div id="content">
+ {% block content %}{% endblock %}
+ </div>
+
+
+ </body>
+</html>

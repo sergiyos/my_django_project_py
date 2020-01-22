@@ -1,0 +1,12 @@
+{
+  "type": "service_account",
+  "project_id": "students-practice-257510",
+  "private_key_id": "fee9dbb84d6c6c182bd817ea7de09d346a9ef9cc",
+  "private_key": "-----BEGIN PRIVATE KEY-----\nMIIEvQIBADANBgkqhkiG9w0BAQEFAASCBKcwggSjAgEAAoIBAQCDmw8XhRazTGnY\nvCdr6PbeIuOtguTy9+e7G9xo1okV1B6Gf0w2ZpRGYNj8wqf6UzxVLKZN67l28Vjq\n/2O14lfaK68WU9gOcUTolzuMFtHY9cfVcz7eKdqGfaPP3MGXGtnJgVdFE1wFyhRU\nZrJQuDMXKKlAZLW2eS8fvVm5A9CpJaa+D0GfV1JIOmvqKeYIzlo9v1syY0AHFuHO\n+L1pSbWf4DQAyqfmUnK3102rg+bEMNgLlkWR7IeHaorwRVhzK3otCD2nBMqCdIk3\nnlWkFuqaWYAnXuY0sd5tkVUkslMtNJMLQ1HewcuK5FGKaJu3rtjqpRgoBukIXZHj\nqV92sEs9AgMBAAECggEACGUvKfGZfcfqxfgADnLcB1ZJGTEiaHAcCORBboamVA17\nV6/DLYKPBDZQC+phoNGyeunQP2RBfoRC3IAnh4Ya00C6Iz3R/d8ykCElm/gmBtBs\nS6zVs9e4/Z9XgH5f8xheuutUpS6+Tg2St8JIBGeGYCcoii0NJ8jEks0XbiVU0uq2\nibkzLUVNOpO/ta+I5pM8HxaZDSHwkvvMyPwbS3Pv6vDgXYdxyuBPqhFqbz0mH8Ng\nnwDvETb0bNvV3CifeHq7nLUpzFIegaPPfp+k8j0KRmtsmlH6sHTRBP7ATjeFqn+6\nOQCQzDwj5YwwF+udJxd2dEDIcpZobIK95tvJKubIgQKBgQC5EpAAcmJFuVhgzBND\n4WMHDFmcnB1mAwvoRV3vMF+To/J6IAa/skyeNYt7VI6O0DlFTFR9pgGbOJAx0vuO\n1cSCSz53ztJnqiDZg51kX4mvCIcfL5/lH5KJpC57c5dRcEtiTFqh2lejYvzl79m5\nRc/vEHr0bKD02cNSZkO55AsdDQKBgQC2CuAScgp9xGxqT2hoDm1ntQHNN9RsRK7u\n9Qlgo9X2x9S0Dmq1uf85ez/UbCFO1aAbcH8Cx2uzSjlW83803t6dSh/rOqAwkOiJ\n3+ZvF0euEebEtq4APUgQTCfdBVVj/0j/jOS9cJQdW2BcCypalYMheGZZ5tJ7C5Y4\n3DTxivk68QKBgHGNrSNJC3kCXvKNZGiq2srRTg5kTzlvNxgdr6P5xzrcRgOesOVf\nrdkIu3tBh3Ki2fDmA5VQjP3DN94KOOULzlWvezWhhcGrRhqPwbt7TwxBLD77Rp0b\nwRqIzShb5QVH5Ej81kMmp80NCGTAxJMD/bAOKZLdL+jr0Ac3zeg5voPlAoGAIEsp\nmNwWNF1mBi30DZGRovYfTbJ7woEkr0tU0In/6PlmKFLuZzKJrj7JAfv0pLGM55E7\nVtjdqD6gkWY8yLpIr4p4wxfxVuw99Ed973Mnyh9u2rK1h2FXqVx5LeJGVajx4DO0\nWE7iV5rgKzPn3Y3sZ0GelpA2ApH5ojieQ8Mtl2ECgYEApRyfM7HoIhh1yBn+ulQM\nPvs+linfaRom5SQJW8fJDdYdG6E+QPmVIIIT2B8hJ8MFPIgOjc5Joq8BuoU4YQ4X\njGNnVSvtE2Vz1JQyf6Vsumu/CrCLFBk+PAWzteXhN73dJEp62tJL9LQDuDxWqGjQ\numMXHEEoswF0IGIbocFtngI=\n-----END PRIVATE KEY-----\n",
+  "client_email": "admin-practice@students-practice-257510.iam.gserviceaccount.com",
+  "client_id": "100139742829157849186",
+  "auth_uri": "https://accounts.google.com/o/oauth2/auth",
+  "token_uri": "https://oauth2.googleapis.com/token",
+  "auth_provider_x509_cert_url": "https://www.googleapis.com/oauth2/v1/certs",
+  "client_x509_cert_url": "https://www.googleapis.com/robot/v1/metadata/x509/admin-practice%40students-practice-257510.iam.gserviceaccount.com"
+}
